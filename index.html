@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light-Dark Mode</title>
+<style>
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn{
+        height: 50px;
+        width: 230px;
+        font-size: 21px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:600;
+        color: rgb(19, 121, 139);
+        border: 5px solid black;
+        border-radius: 50px;
+    }
+    .dark{
+      background-color: black;
+      color: aqua;
+      transition: all ease-in 0.7s;
+    }
+    .light{
+         background-color: rgb(255, 255, 255);
+         color: black;
+         transition:all ease-in 0.5s  ;
+    }
+    #para{
+        font-size: 41px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 900;
+    }
+</style>
+
+<body>
+ 
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi temporibus libero illum culpa officia, magnam, rem magni officiis sed laborum est dignissimos, veniam ipsum fugiat ab. Temporibus pariatur molestiae dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, rerum ducimus! Perspiciatis deleniti laborum eveniet at mollitia a fugiat distinctio atque, error iure, perferendis voluptatem recusandae suscipit repellendus autem et.</p>
+    <div>
+    <button id="btn">Light-Mode</button>
+     </div>
+    <script src="scripte.js"></script>
+</body>
+</html>
